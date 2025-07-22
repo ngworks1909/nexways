@@ -1,0 +1,1502 @@
+[
+  {
+    "flight_id": "001",
+    "flight_name": "Go First 403",
+    "origin": {
+      "city_id": "34242b9900af4d6392f0eb8d7ada34ed",
+      "city_name": "jodhpur"
+    },
+    "destination": {
+      "city_id": "7e65b6483f654a31aa86508479185012",
+      "city_name": "leh"
+    },
+    "price": 9856.52,
+    "seats": 194,
+    "flight_time": "2025-07-30T06:46:37.479641"
+  },
+  {
+    "flight_id": "002",
+    "flight_name": "SpiceJet 222",
+    "origin": {
+      "city_id": "4a3666a0ec6c4a3897c762f15276cf08",
+      "city_name": "pune"
+    },
+    "destination": {
+      "city_id": "0dbffa1ee7b6404ea102304db2a72f7e",
+      "city_name": "hyderabad"
+    },
+    "price": 6593.97,
+    "seats": 149,
+    "flight_time": "2025-07-27T22:46:37.479683"
+  },
+  {
+    "flight_id": "003",
+    "flight_name": "TruJet 959",
+    "origin": {
+      "city_id": "ab968fad0d1a4291ade553fcbd08e005",
+      "city_name": "visakhapatnam"
+    },
+    "destination": {
+      "city_id": "0dbffa1ee7b6404ea102304db2a72f7e",
+      "city_name": "hyderabad"
+    },
+    "price": 13175.1,
+    "seats": 113,
+    "flight_time": "2025-08-03T13:46:37.479715"
+  },
+  {
+    "flight_id": "004",
+    "flight_name": "AirAsia India 193",
+    "origin": {
+      "city_id": "f51ea4d00c474857b70af9bbd15c0ab5",
+      "city_name": "bhubaneswar"
+    },
+    "destination": {
+      "city_id": "50089c8b634e40a784d2cb53a832541e",
+      "city_name": "srinagar"
+    },
+    "price": 12622.35,
+    "seats": 184,
+    "flight_time": "2025-07-27T19:46:37.479733"
+  },
+  {
+    "flight_id": "005",
+    "flight_name": "Star Air 551",
+    "origin": {
+      "city_id": "8f081afe27ea4f86b552e7de36a27d2f",
+      "city_name": "goa"
+    },
+    "destination": {
+      "city_id": "841f8dccf40f4a17bced63096aae410f",
+      "city_name": "indore"
+    },
+    "price": 10352.34,
+    "seats": 103,
+    "flight_time": "2025-08-12T21:46:37.479746"
+  },
+  {
+    "flight_id": "006",
+    "flight_name": "Vistara 978",
+    "origin": {
+      "city_id": "323debc671d8418695d99f24e948d0a2",
+      "city_name": "guwahati"
+    },
+    "destination": {
+      "city_id": "8d43db7b41ab4fdfa4685af2cad0620b",
+      "city_name": "nagpur"
+    },
+    "price": 12351.19,
+    "seats": 103,
+    "flight_time": "2025-07-24T07:46:37.479757"
+  },
+  {
+    "flight_id": "007",
+    "flight_name": "AirAsia India 734",
+    "origin": {
+      "city_id": "e7614960f87541efaf2cc7626012655c",
+      "city_name": "bagdogra"
+    },
+    "destination": {
+      "city_id": "0dbffa1ee7b6404ea102304db2a72f7e",
+      "city_name": "hyderabad"
+    },
+    "price": 9389.14,
+    "seats": 61,
+    "flight_time": "2025-08-05T15:46:37.479768"
+  },
+  {
+    "flight_id": "008",
+    "flight_name": "Air India 241",
+    "origin": {
+      "city_id": "38803755439d4343950d07c9e6f9777d",
+      "city_name": "agartala"
+    },
+    "destination": {
+      "city_id": "4f78965e7fd5410ea4b4b25ad72a39bb",
+      "city_name": "chandigarh"
+    },
+    "price": 7615.04,
+    "seats": 197,
+    "flight_time": "2025-08-08T08:46:37.479783"
+  },
+  {
+    "flight_id": "009",
+    "flight_name": "Star Air 850",
+    "origin": {
+      "city_id": "421bab50fd294129b76eadbb82dd3231",
+      "city_name": "amritsar"
+    },
+    "destination": {
+      "city_id": "7e65b6483f654a31aa86508479185012",
+      "city_name": "leh"
+    },
+    "price": 13938.1,
+    "seats": 119,
+    "flight_time": "2025-08-22T00:46:37.479796"
+  },
+  {
+    "flight_id": "010",
+    "flight_name": "IndiGo 180",
+    "origin": {
+      "city_id": "c51d9bfa3ad1449f8d8e43b3586832ae",
+      "city_name": "tiruchirappalli"
+    },
+    "destination": {
+      "city_id": "e7614960f87541efaf2cc7626012655c",
+      "city_name": "bagdogra"
+    },
+    "price": 10362.87,
+    "seats": 55,
+    "flight_time": "2025-07-29T23:46:37.479808"
+  },
+  {
+    "flight_id": "011",
+    "flight_name": "Go First 194",
+    "origin": {
+      "city_id": "4a3666a0ec6c4a3897c762f15276cf08",
+      "city_name": "pune"
+    },
+    "destination": {
+      "city_id": "34242b9900af4d6392f0eb8d7ada34ed",
+      "city_name": "jodhpur"
+    },
+    "price": 9971.58,
+    "seats": 57,
+    "flight_time": "2025-08-02T09:46:37.479819"
+  },
+  {
+    "flight_id": "012",
+    "flight_name": "Go First 502",
+    "origin": {
+      "city_id": "dea08672a4174cf0ad338b3d66fbfca6",
+      "city_name": "madurai"
+    },
+    "destination": {
+      "city_id": "cfd5a80499064e4aa4776358e761345f",
+      "city_name": "delhi"
+    },
+    "price": 9692.73,
+    "seats": 74,
+    "flight_time": "2025-08-05T21:46:37.479829"
+  },
+  {
+    "flight_id": "013",
+    "flight_name": "AirAsia India 994",
+    "origin": {
+      "city_id": "bdc25ad23e684fdb865f8629d59b296b",
+      "city_name": "imphal"
+    },
+    "destination": {
+      "city_id": "8d43db7b41ab4fdfa4685af2cad0620b",
+      "city_name": "nagpur"
+    },
+    "price": 12572.69,
+    "seats": 63,
+    "flight_time": "2025-07-29T15:46:37.479839"
+  },
+  {
+    "flight_id": "014",
+    "flight_name": "Star Air 516",
+    "origin": {
+      "city_id": "1899347ec35e4db6aeabe0a22e3a2275",
+      "city_name": "port blair"
+    },
+    "destination": {
+      "city_id": "4a3666a0ec6c4a3897c762f15276cf08",
+      "city_name": "pune"
+    },
+    "price": 6178.57,
+    "seats": 195,
+    "flight_time": "2025-08-02T08:46:37.479849"
+  },
+  {
+    "flight_id": "015",
+    "flight_name": "Akasa Air 834",
+    "origin": {
+      "city_id": "cfd5a80499064e4aa4776358e761345f",
+      "city_name": "delhi"
+    },
+    "destination": {
+      "city_id": "7e65b6483f654a31aa86508479185012",
+      "city_name": "leh"
+    },
+    "price": 9354.55,
+    "seats": 94,
+    "flight_time": "2025-08-11T18:46:37.479859"
+  },
+  {
+    "flight_id": "016",
+    "flight_name": "IndiGo 836",
+    "origin": {
+      "city_id": "c51d9bfa3ad1449f8d8e43b3586832ae",
+      "city_name": "tiruchirappalli"
+    },
+    "destination": {
+      "city_id": "8d43db7b41ab4fdfa4685af2cad0620b",
+      "city_name": "nagpur"
+    },
+    "price": 7371.73,
+    "seats": 177,
+    "flight_time": "2025-08-03T12:46:37.479869"
+  },
+  {
+    "flight_id": "017",
+    "flight_name": "IndiGo 517",
+    "origin": {
+      "city_id": "8f081afe27ea4f86b552e7de36a27d2f",
+      "city_name": "goa"
+    },
+    "destination": {
+      "city_id": "ab968fad0d1a4291ade553fcbd08e005",
+      "city_name": "visakhapatnam"
+    },
+    "price": 9338.72,
+    "seats": 72,
+    "flight_time": "2025-08-12T21:46:37.479879"
+  },
+  {
+    "flight_id": "018",
+    "flight_name": "AirAsia India 642",
+    "origin": {
+      "city_id": "421bab50fd294129b76eadbb82dd3231",
+      "city_name": "amritsar"
+    },
+    "destination": {
+      "city_id": "18f5fddfa3d144f081e751e35424af60",
+      "city_name": "ahmedabad"
+    },
+    "price": 4993.08,
+    "seats": 164,
+    "flight_time": "2025-07-30T05:46:37.479898"
+  },
+  {
+    "flight_id": "019",
+    "flight_name": "Alliance Air 533",
+    "origin": {
+      "city_id": "c51d9bfa3ad1449f8d8e43b3586832ae",
+      "city_name": "tiruchirappalli"
+    },
+    "destination": {
+      "city_id": "841f8dccf40f4a17bced63096aae410f",
+      "city_name": "indore"
+    },
+    "price": 5366.94,
+    "seats": 116,
+    "flight_time": "2025-08-02T01:46:37.479908"
+  },
+  {
+    "flight_id": "020",
+    "flight_name": "Air India 482",
+    "origin": {
+      "city_id": "7e65b6483f654a31aa86508479185012",
+      "city_name": "leh"
+    },
+    "destination": {
+      "city_id": "cfd5a80499064e4aa4776358e761345f",
+      "city_name": "delhi"
+    },
+    "price": 6471.53,
+    "seats": 84,
+    "flight_time": "2025-07-28T17:46:37.479918"
+  },
+  {
+    "flight_id": "021",
+    "flight_name": "Alliance Air 444",
+    "origin": {
+      "city_id": "4a3666a0ec6c4a3897c762f15276cf08",
+      "city_name": "pune"
+    },
+    "destination": {
+      "city_id": "ea5d1ed91d494f9e8f1cc3e9cd2549b5",
+      "city_name": "varanasi"
+    },
+    "price": 14095.14,
+    "seats": 80,
+    "flight_time": "2025-08-10T09:46:37.479929"
+  },
+  {
+    "flight_id": "022",
+    "flight_name": "Alliance Air 569",
+    "origin": {
+      "city_id": "6d03a279d97642f7b6276b32fbe30044",
+      "city_name": "jaipur"
+    },
+    "destination": {
+      "city_id": "4f78965e7fd5410ea4b4b25ad72a39bb",
+      "city_name": "chandigarh"
+    },
+    "price": 7413.44,
+    "seats": 165,
+    "flight_time": "2025-08-16T18:46:37.479939"
+  },
+  {
+    "flight_id": "023",
+    "flight_name": "SpiceJet 307",
+    "origin": {
+      "city_id": "34242b9900af4d6392f0eb8d7ada34ed",
+      "city_name": "jodhpur"
+    },
+    "destination": {
+      "city_id": "521b2ddf4c2b4055a157448c1ba3ff11",
+      "city_name": "mangalore"
+    },
+    "price": 7377.51,
+    "seats": 92,
+    "flight_time": "2025-08-15T14:46:37.479949"
+  },
+  {
+    "flight_id": "024",
+    "flight_name": "Go First 490",
+    "origin": {
+      "city_id": "50089c8b634e40a784d2cb53a832541e",
+      "city_name": "srinagar"
+    },
+    "destination": {
+      "city_id": "841f8dccf40f4a17bced63096aae410f",
+      "city_name": "indore"
+    },
+    "price": 2968.0,
+    "seats": 55,
+    "flight_time": "2025-08-10T20:46:37.479959"
+  },
+  {
+    "flight_id": "025",
+    "flight_name": "Go First 163",
+    "origin": {
+      "city_id": "9a78463deb5b4f3bba232bb78f455962",
+      "city_name": "udaipur"
+    },
+    "destination": {
+      "city_id": "f51ea4d00c474857b70af9bbd15c0ab5",
+      "city_name": "bhubaneswar"
+    },
+    "price": 6340.6,
+    "seats": 168,
+    "flight_time": "2025-08-22T12:46:37.479968"
+  },
+  {
+    "flight_id": "026",
+    "flight_name": "Akasa Air 770",
+    "origin": {
+      "city_id": "f51ea4d00c474857b70af9bbd15c0ab5",
+      "city_name": "bhubaneswar"
+    },
+    "destination": {
+      "city_id": "da328b0e4ced438d85aa1c4c44e282b6",
+      "city_name": "kolkata"
+    },
+    "price": 8192.4,
+    "seats": 121,
+    "flight_time": "2025-08-13T05:46:37.479982"
+  },
+  {
+    "flight_id": "027",
+    "flight_name": "AirAsia India 479",
+    "origin": {
+      "city_id": "7e65b6483f654a31aa86508479185012",
+      "city_name": "leh"
+    },
+    "destination": {
+      "city_id": "ae6a3954b0ea4bb8bd1301d4822331b8",
+      "city_name": "dehradun"
+    },
+    "price": 14932.22,
+    "seats": 177,
+    "flight_time": "2025-08-19T10:46:37.480000"
+  },
+  {
+    "flight_id": "028",
+    "flight_name": "AirAsia India 330",
+    "origin": {
+      "city_id": "85d5cebd4fb24372897c9ec99246f07b",
+      "city_name": "vadodara"
+    },
+    "destination": {
+      "city_id": "0dbffa1ee7b6404ea102304db2a72f7e",
+      "city_name": "hyderabad"
+    },
+    "price": 13235.83,
+    "seats": 117,
+    "flight_time": "2025-08-03T11:46:37.480016"
+  },
+  {
+    "flight_id": "029",
+    "flight_name": "Star Air 198",
+    "origin": {
+      "city_id": "e2254beca6174f2da935588fe49236e7",
+      "city_name": "chennai"
+    },
+    "destination": {
+      "city_id": "7c49d89aaeeb47f49ca09f837ab492ad",
+      "city_name": "trivandrum"
+    },
+    "price": 13645.21,
+    "seats": 66,
+    "flight_time": "2025-07-31T17:46:37.480033"
+  },
+  {
+    "flight_id": "030",
+    "flight_name": "SpiceJet 645",
+    "origin": {
+      "city_id": "cfd5a80499064e4aa4776358e761345f",
+      "city_name": "delhi"
+    },
+    "destination": {
+      "city_id": "7c49d89aaeeb47f49ca09f837ab492ad",
+      "city_name": "trivandrum"
+    },
+    "price": 5817.59,
+    "seats": 168,
+    "flight_time": "2025-08-17T21:46:37.480049"
+  },
+  {
+    "flight_id": "031",
+    "flight_name": "Akasa Air 819",
+    "origin": {
+      "city_id": "521b2ddf4c2b4055a157448c1ba3ff11",
+      "city_name": "mangalore"
+    },
+    "destination": {
+      "city_id": "ab968fad0d1a4291ade553fcbd08e005",
+      "city_name": "visakhapatnam"
+    },
+    "price": 7166.44,
+    "seats": 198,
+    "flight_time": "2025-07-24T08:46:37.480063"
+  },
+  {
+    "flight_id": "032",
+    "flight_name": "Star Air 392",
+    "origin": {
+      "city_id": "f51ea4d00c474857b70af9bbd15c0ab5",
+      "city_name": "bhubaneswar"
+    },
+    "destination": {
+      "city_id": "ea5d1ed91d494f9e8f1cc3e9cd2549b5",
+      "city_name": "varanasi"
+    },
+    "price": 8664.51,
+    "seats": 104,
+    "flight_time": "2025-07-31T19:46:37.480073"
+  },
+  {
+    "flight_id": "033",
+    "flight_name": "Akasa Air 291",
+    "origin": {
+      "city_id": "18f5fddfa3d144f081e751e35424af60",
+      "city_name": "ahmedabad"
+    },
+    "destination": {
+      "city_id": "50089c8b634e40a784d2cb53a832541e",
+      "city_name": "srinagar"
+    },
+    "price": 10284.03,
+    "seats": 77,
+    "flight_time": "2025-08-12T06:46:37.480085"
+  },
+  {
+    "flight_id": "034",
+    "flight_name": "IndiGo 712",
+    "origin": {
+      "city_id": "cfd5a80499064e4aa4776358e761345f",
+      "city_name": "delhi"
+    },
+    "destination": {
+      "city_id": "4f78965e7fd5410ea4b4b25ad72a39bb",
+      "city_name": "chandigarh"
+    },
+    "price": 14808.37,
+    "seats": 85,
+    "flight_time": "2025-08-02T02:46:37.480095"
+  },
+  {
+    "flight_id": "035",
+    "flight_name": "Alliance Air 946",
+    "origin": {
+      "city_id": "da328b0e4ced438d85aa1c4c44e282b6",
+      "city_name": "kolkata"
+    },
+    "destination": {
+      "city_id": "4a3666a0ec6c4a3897c762f15276cf08",
+      "city_name": "pune"
+    },
+    "price": 7963.01,
+    "seats": 153,
+    "flight_time": "2025-08-09T16:46:37.480105"
+  },
+  {
+    "flight_id": "036",
+    "flight_name": "SpiceJet 934",
+    "origin": {
+      "city_id": "bdc25ad23e684fdb865f8629d59b296b",
+      "city_name": "imphal"
+    },
+    "destination": {
+      "city_id": "4df8fb8d730c44b0a000fbd9eb43959a",
+      "city_name": "patna"
+    },
+    "price": 11881.19,
+    "seats": 129,
+    "flight_time": "2025-07-30T21:46:37.480115"
+  },
+  {
+    "flight_id": "037",
+    "flight_name": "Alliance Air 653",
+    "origin": {
+      "city_id": "38803755439d4343950d07c9e6f9777d",
+      "city_name": "agartala"
+    },
+    "destination": {
+      "city_id": "cfd5a80499064e4aa4776358e761345f",
+      "city_name": "delhi"
+    },
+    "price": 5395.94,
+    "seats": 50,
+    "flight_time": "2025-07-24T15:46:37.480124"
+  },
+  {
+    "flight_id": "038",
+    "flight_name": "Alliance Air 677",
+    "origin": {
+      "city_id": "46e4acf196e84406a027cf28ead0c08c",
+      "city_name": "coimbatore"
+    },
+    "destination": {
+      "city_id": "34242b9900af4d6392f0eb8d7ada34ed",
+      "city_name": "jodhpur"
+    },
+    "price": 4867.2,
+    "seats": 130,
+    "flight_time": "2025-08-07T11:46:37.480134"
+  },
+  {
+    "flight_id": "039",
+    "flight_name": "Vistara 859",
+    "origin": {
+      "city_id": "18f5fddfa3d144f081e751e35424af60",
+      "city_name": "ahmedabad"
+    },
+    "destination": {
+      "city_id": "da328b0e4ced438d85aa1c4c44e282b6",
+      "city_name": "kolkata"
+    },
+    "price": 8269.31,
+    "seats": 124,
+    "flight_time": "2025-08-15T18:46:37.480144"
+  },
+  {
+    "flight_id": "040",
+    "flight_name": "Akasa Air 618",
+    "origin": {
+      "city_id": "f51ea4d00c474857b70af9bbd15c0ab5",
+      "city_name": "bhubaneswar"
+    },
+    "destination": {
+      "city_id": "e7614960f87541efaf2cc7626012655c",
+      "city_name": "bagdogra"
+    },
+    "price": 5125.27,
+    "seats": 169,
+    "flight_time": "2025-07-27T12:46:37.480153"
+  },
+  {
+    "flight_id": "041",
+    "flight_name": "Star Air 862",
+    "origin": {
+      "city_id": "38803755439d4343950d07c9e6f9777d",
+      "city_name": "agartala"
+    },
+    "destination": {
+      "city_id": "4df8fb8d730c44b0a000fbd9eb43959a",
+      "city_name": "patna"
+    },
+    "price": 6598.16,
+    "seats": 63,
+    "flight_time": "2025-08-18T15:46:37.480163"
+  },
+  {
+    "flight_id": "042",
+    "flight_name": "Air India 391",
+    "origin": {
+      "city_id": "50089c8b634e40a784d2cb53a832541e",
+      "city_name": "srinagar"
+    },
+    "destination": {
+      "city_id": "bdc25ad23e684fdb865f8629d59b296b",
+      "city_name": "imphal"
+    },
+    "price": 14174.74,
+    "seats": 91,
+    "flight_time": "2025-08-07T21:46:37.480173"
+  },
+  {
+    "flight_id": "043",
+    "flight_name": "Alliance Air 624",
+    "origin": {
+      "city_id": "421bab50fd294129b76eadbb82dd3231",
+      "city_name": "amritsar"
+    },
+    "destination": {
+      "city_id": "da328b0e4ced438d85aa1c4c44e282b6",
+      "city_name": "kolkata"
+    },
+    "price": 14527.05,
+    "seats": 133,
+    "flight_time": "2025-08-07T17:46:37.480183"
+  },
+  {
+    "flight_id": "044",
+    "flight_name": "TruJet 360",
+    "origin": {
+      "city_id": "1899347ec35e4db6aeabe0a22e3a2275",
+      "city_name": "port blair"
+    },
+    "destination": {
+      "city_id": "18f5fddfa3d144f081e751e35424af60",
+      "city_name": "ahmedabad"
+    },
+    "price": 9218.53,
+    "seats": 114,
+    "flight_time": "2025-08-17T10:46:37.480199"
+  },
+  {
+    "flight_id": "045",
+    "flight_name": "Alliance Air 458",
+    "origin": {
+      "city_id": "ea5d1ed91d494f9e8f1cc3e9cd2549b5",
+      "city_name": "varanasi"
+    },
+    "destination": {
+      "city_id": "4f78965e7fd5410ea4b4b25ad72a39bb",
+      "city_name": "chandigarh"
+    },
+    "price": 10246.06,
+    "seats": 160,
+    "flight_time": "2025-07-31T15:46:37.480217"
+  },
+  {
+    "flight_id": "046",
+    "flight_name": "Alliance Air 550",
+    "origin": {
+      "city_id": "7c49d89aaeeb47f49ca09f837ab492ad",
+      "city_name": "trivandrum"
+    },
+    "destination": {
+      "city_id": "46e4acf196e84406a027cf28ead0c08c",
+      "city_name": "coimbatore"
+    },
+    "price": 10622.08,
+    "seats": 166,
+    "flight_time": "2025-07-31T08:46:37.480228"
+  },
+  {
+    "flight_id": "047",
+    "flight_name": "Air India 289",
+    "origin": {
+      "city_id": "8d43db7b41ab4fdfa4685af2cad0620b",
+      "city_name": "nagpur"
+    },
+    "destination": {
+      "city_id": "50089c8b634e40a784d2cb53a832541e",
+      "city_name": "srinagar"
+    },
+    "price": 10494.54,
+    "seats": 135,
+    "flight_time": "2025-08-02T02:46:37.480237"
+  },
+  {
+    "flight_id": "048",
+    "flight_name": "AirAsia India 400",
+    "origin": {
+      "city_id": "50ee86afe1a643a991e6c039b2c1602b",
+      "city_name": "raipur"
+    },
+    "destination": {
+      "city_id": "f51ea4d00c474857b70af9bbd15c0ab5",
+      "city_name": "bhubaneswar"
+    },
+    "price": 8767.77,
+    "seats": 177,
+    "flight_time": "2025-07-29T15:46:37.480247"
+  },
+  {
+    "flight_id": "049",
+    "flight_name": "TruJet 268",
+    "origin": {
+      "city_id": "c51d9bfa3ad1449f8d8e43b3586832ae",
+      "city_name": "tiruchirappalli"
+    },
+    "destination": {
+      "city_id": "323debc671d8418695d99f24e948d0a2",
+      "city_name": "guwahati"
+    },
+    "price": 3052.55,
+    "seats": 180,
+    "flight_time": "2025-08-16T17:46:37.480261"
+  },
+  {
+    "flight_id": "050",
+    "flight_name": "AirAsia India 553",
+    "origin": {
+      "city_id": "a05dc9fb3c5d44e993c694dfbb330e21",
+      "city_name": "lucknow"
+    },
+    "destination": {
+      "city_id": "c51d9bfa3ad1449f8d8e43b3586832ae",
+      "city_name": "tiruchirappalli"
+    },
+    "price": 5942.03,
+    "seats": 73,
+    "flight_time": "2025-08-09T12:46:37.480272"
+  },
+  {
+    "flight_id": "051",
+    "flight_name": "SpiceJet 312",
+    "origin": {
+      "city_id": "e7614960f87541efaf2cc7626012655c",
+      "city_name": "bagdogra"
+    },
+    "destination": {
+      "city_id": "ea5d1ed91d494f9e8f1cc3e9cd2549b5",
+      "city_name": "varanasi"
+    },
+    "price": 8438.41,
+    "seats": 188,
+    "flight_time": "2025-08-02T08:46:37.480282"
+  },
+  {
+    "flight_id": "052",
+    "flight_name": "Akasa Air 205",
+    "origin": {
+      "city_id": "f51ea4d00c474857b70af9bbd15c0ab5",
+      "city_name": "bhubaneswar"
+    },
+    "destination": {
+      "city_id": "dea08672a4174cf0ad338b3d66fbfca6",
+      "city_name": "madurai"
+    },
+    "price": 13957.57,
+    "seats": 92,
+    "flight_time": "2025-07-29T11:46:37.480292"
+  },
+  {
+    "flight_id": "053",
+    "flight_name": "AirAsia India 508",
+    "origin": {
+      "city_id": "bdc25ad23e684fdb865f8629d59b296b",
+      "city_name": "imphal"
+    },
+    "destination": {
+      "city_id": "a05dc9fb3c5d44e993c694dfbb330e21",
+      "city_name": "lucknow"
+    },
+    "price": 11552.22,
+    "seats": 182,
+    "flight_time": "2025-08-10T08:46:37.480302"
+  },
+  {
+    "flight_id": "054",
+    "flight_name": "SpiceJet 981",
+    "origin": {
+      "city_id": "ab968fad0d1a4291ade553fcbd08e005",
+      "city_name": "visakhapatnam"
+    },
+    "destination": {
+      "city_id": "85d5cebd4fb24372897c9ec99246f07b",
+      "city_name": "vadodara"
+    },
+    "price": 5215.9,
+    "seats": 72,
+    "flight_time": "2025-08-21T18:46:37.480312"
+  },
+  {
+    "flight_id": "055",
+    "flight_name": "Vistara 904",
+    "origin": {
+      "city_id": "6d03a279d97642f7b6276b32fbe30044",
+      "city_name": "jaipur"
+    },
+    "destination": {
+      "city_id": "46e4acf196e84406a027cf28ead0c08c",
+      "city_name": "coimbatore"
+    },
+    "price": 9458.31,
+    "seats": 97,
+    "flight_time": "2025-08-15T15:46:37.480321"
+  },
+  {
+    "flight_id": "056",
+    "flight_name": "Akasa Air 225",
+    "origin": {
+      "city_id": "bdc25ad23e684fdb865f8629d59b296b",
+      "city_name": "imphal"
+    },
+    "destination": {
+      "city_id": "c51d9bfa3ad1449f8d8e43b3586832ae",
+      "city_name": "tiruchirappalli"
+    },
+    "price": 14447.24,
+    "seats": 85,
+    "flight_time": "2025-07-26T17:46:37.480331"
+  },
+  {
+    "flight_id": "057",
+    "flight_name": "Go First 863",
+    "origin": {
+      "city_id": "0bce210d9b214ba28e44179b577d7f13",
+      "city_name": "mumbai"
+    },
+    "destination": {
+      "city_id": "323debc671d8418695d99f24e948d0a2",
+      "city_name": "guwahati"
+    },
+    "price": 14035.87,
+    "seats": 153,
+    "flight_time": "2025-08-15T08:46:37.480341"
+  },
+  {
+    "flight_id": "058",
+    "flight_name": "TruJet 776",
+    "origin": {
+      "city_id": "50ee86afe1a643a991e6c039b2c1602b",
+      "city_name": "raipur"
+    },
+    "destination": {
+      "city_id": "0dbffa1ee7b6404ea102304db2a72f7e",
+      "city_name": "hyderabad"
+    },
+    "price": 8492.37,
+    "seats": 107,
+    "flight_time": "2025-08-16T05:46:37.480353"
+  },
+  {
+    "flight_id": "059",
+    "flight_name": "Vistara 582",
+    "origin": {
+      "city_id": "46e4acf196e84406a027cf28ead0c08c",
+      "city_name": "coimbatore"
+    },
+    "destination": {
+      "city_id": "323debc671d8418695d99f24e948d0a2",
+      "city_name": "guwahati"
+    },
+    "price": 7089.75,
+    "seats": 70,
+    "flight_time": "2025-08-16T04:46:37.480369"
+  },
+  {
+    "flight_id": "060",
+    "flight_name": "Air India 656",
+    "origin": {
+      "city_id": "9a78463deb5b4f3bba232bb78f455962",
+      "city_name": "udaipur"
+    },
+    "destination": {
+      "city_id": "1899347ec35e4db6aeabe0a22e3a2275",
+      "city_name": "port blair"
+    },
+    "price": 12855.04,
+    "seats": 118,
+    "flight_time": "2025-08-07T06:46:37.480384"
+  },
+  {
+    "flight_id": "061",
+    "flight_name": "SpiceJet 817",
+    "origin": {
+      "city_id": "d18003eb60824922915b925c72d6fd12",
+      "city_name": "ranchi"
+    },
+    "destination": {
+      "city_id": "50089c8b634e40a784d2cb53a832541e",
+      "city_name": "srinagar"
+    },
+    "price": 7693.38,
+    "seats": 162,
+    "flight_time": "2025-07-28T11:46:37.480401"
+  },
+  {
+    "flight_id": "062",
+    "flight_name": "AirAsia India 712",
+    "origin": {
+      "city_id": "323debc671d8418695d99f24e948d0a2",
+      "city_name": "guwahati"
+    },
+    "destination": {
+      "city_id": "ea5d1ed91d494f9e8f1cc3e9cd2549b5",
+      "city_name": "varanasi"
+    },
+    "price": 5058.8,
+    "seats": 72,
+    "flight_time": "2025-08-17T00:46:37.480412"
+  },
+  {
+    "flight_id": "063",
+    "flight_name": "Vistara 265",
+    "origin": {
+      "city_id": "46e4acf196e84406a027cf28ead0c08c",
+      "city_name": "coimbatore"
+    },
+    "destination": {
+      "city_id": "cfd5a80499064e4aa4776358e761345f",
+      "city_name": "delhi"
+    },
+    "price": 2651.16,
+    "seats": 136,
+    "flight_time": "2025-08-12T19:46:37.480422"
+  },
+  {
+    "flight_id": "064",
+    "flight_name": "Air India 160",
+    "origin": {
+      "city_id": "da328b0e4ced438d85aa1c4c44e282b6",
+      "city_name": "kolkata"
+    },
+    "destination": {
+      "city_id": "0dbffa1ee7b6404ea102304db2a72f7e",
+      "city_name": "hyderabad"
+    },
+    "price": 9064.95,
+    "seats": 71,
+    "flight_time": "2025-08-08T11:46:37.480431"
+  },
+  {
+    "flight_id": "065",
+    "flight_name": "IndiGo 946",
+    "origin": {
+      "city_id": "ae6a3954b0ea4bb8bd1301d4822331b8",
+      "city_name": "dehradun"
+    },
+    "destination": {
+      "city_id": "50089c8b634e40a784d2cb53a832541e",
+      "city_name": "srinagar"
+    },
+    "price": 6038.55,
+    "seats": 104,
+    "flight_time": "2025-08-09T22:46:37.480441"
+  },
+  {
+    "flight_id": "066",
+    "flight_name": "TruJet 381",
+    "origin": {
+      "city_id": "0bce210d9b214ba28e44179b577d7f13",
+      "city_name": "mumbai"
+    },
+    "destination": {
+      "city_id": "18f5fddfa3d144f081e751e35424af60",
+      "city_name": "ahmedabad"
+    },
+    "price": 8210.62,
+    "seats": 100,
+    "flight_time": "2025-08-10T01:46:37.480450"
+  },
+  {
+    "flight_id": "067",
+    "flight_name": "AirAsia India 528",
+    "origin": {
+      "city_id": "dea08672a4174cf0ad338b3d66fbfca6",
+      "city_name": "madurai"
+    },
+    "destination": {
+      "city_id": "4a3666a0ec6c4a3897c762f15276cf08",
+      "city_name": "pune"
+    },
+    "price": 6816.44,
+    "seats": 179,
+    "flight_time": "2025-08-21T12:46:37.480460"
+  },
+  {
+    "flight_id": "068",
+    "flight_name": "IndiGo 486",
+    "origin": {
+      "city_id": "38803755439d4343950d07c9e6f9777d",
+      "city_name": "agartala"
+    },
+    "destination": {
+      "city_id": "50ee86afe1a643a991e6c039b2c1602b",
+      "city_name": "raipur"
+    },
+    "price": 5773.83,
+    "seats": 59,
+    "flight_time": "2025-08-20T00:46:37.480470"
+  },
+  {
+    "flight_id": "069",
+    "flight_name": "IndiGo 938",
+    "origin": {
+      "city_id": "0bce210d9b214ba28e44179b577d7f13",
+      "city_name": "mumbai"
+    },
+    "destination": {
+      "city_id": "cfd5a80499064e4aa4776358e761345f",
+      "city_name": "delhi"
+    },
+    "price": 2762.62,
+    "seats": 145,
+    "flight_time": "2025-07-28T05:46:37.480480"
+  },
+  {
+    "flight_id": "070",
+    "flight_name": "Go First 795",
+    "origin": {
+      "city_id": "ae6a3954b0ea4bb8bd1301d4822331b8",
+      "city_name": "dehradun"
+    },
+    "destination": {
+      "city_id": "dea08672a4174cf0ad338b3d66fbfca6",
+      "city_name": "madurai"
+    },
+    "price": 9833.87,
+    "seats": 111,
+    "flight_time": "2025-08-15T18:46:37.480490"
+  },
+  {
+    "flight_id": "071",
+    "flight_name": "Akasa Air 210",
+    "origin": {
+      "city_id": "ea5d1ed91d494f9e8f1cc3e9cd2549b5",
+      "city_name": "varanasi"
+    },
+    "destination": {
+      "city_id": "d18003eb60824922915b925c72d6fd12",
+      "city_name": "ranchi"
+    },
+    "price": 9985.35,
+    "seats": 99,
+    "flight_time": "2025-08-20T11:46:37.480499"
+  },
+  {
+    "flight_id": "072",
+    "flight_name": "Go First 468",
+    "origin": {
+      "city_id": "dea08672a4174cf0ad338b3d66fbfca6",
+      "city_name": "madurai"
+    },
+    "destination": {
+      "city_id": "521b2ddf4c2b4055a157448c1ba3ff11",
+      "city_name": "mangalore"
+    },
+    "price": 4016.38,
+    "seats": 80,
+    "flight_time": "2025-08-02T23:46:37.480515"
+  },
+  {
+    "flight_id": "073",
+    "flight_name": "IndiGo 171",
+    "origin": {
+      "city_id": "0bce210d9b214ba28e44179b577d7f13",
+      "city_name": "mumbai"
+    },
+    "destination": {
+      "city_id": "ea5d1ed91d494f9e8f1cc3e9cd2549b5",
+      "city_name": "varanasi"
+    },
+    "price": 9056.28,
+    "seats": 140,
+    "flight_time": "2025-07-29T22:46:37.480532"
+  },
+  {
+    "flight_id": "074",
+    "flight_name": "Alliance Air 335",
+    "origin": {
+      "city_id": "50ee86afe1a643a991e6c039b2c1602b",
+      "city_name": "raipur"
+    },
+    "destination": {
+      "city_id": "c51d9bfa3ad1449f8d8e43b3586832ae",
+      "city_name": "tiruchirappalli"
+    },
+    "price": 9547.33,
+    "seats": 193,
+    "flight_time": "2025-08-18T03:46:37.480548"
+  },
+  {
+    "flight_id": "075",
+    "flight_name": "Air India 848",
+    "origin": {
+      "city_id": "4df8fb8d730c44b0a000fbd9eb43959a",
+      "city_name": "patna"
+    },
+    "destination": {
+      "city_id": "50089c8b634e40a784d2cb53a832541e",
+      "city_name": "srinagar"
+    },
+    "price": 13967.71,
+    "seats": 160,
+    "flight_time": "2025-08-01T05:46:37.480558"
+  },
+  {
+    "flight_id": "076",
+    "flight_name": "IndiGo 791",
+    "origin": {
+      "city_id": "38803755439d4343950d07c9e6f9777d",
+      "city_name": "agartala"
+    },
+    "destination": {
+      "city_id": "521b2ddf4c2b4055a157448c1ba3ff11",
+      "city_name": "mangalore"
+    },
+    "price": 13821.41,
+    "seats": 177,
+    "flight_time": "2025-07-29T21:46:37.480568"
+  },
+  {
+    "flight_id": "077",
+    "flight_name": "Air India 362",
+    "origin": {
+      "city_id": "323debc671d8418695d99f24e948d0a2",
+      "city_name": "guwahati"
+    },
+    "destination": {
+      "city_id": "c51d9bfa3ad1449f8d8e43b3586832ae",
+      "city_name": "tiruchirappalli"
+    },
+    "price": 10577.77,
+    "seats": 148,
+    "flight_time": "2025-08-22T01:46:37.480578"
+  },
+  {
+    "flight_id": "078",
+    "flight_name": "SpiceJet 206",
+    "origin": {
+      "city_id": "521b2ddf4c2b4055a157448c1ba3ff11",
+      "city_name": "mangalore"
+    },
+    "destination": {
+      "city_id": "38803755439d4343950d07c9e6f9777d",
+      "city_name": "agartala"
+    },
+    "price": 8882.6,
+    "seats": 88,
+    "flight_time": "2025-08-12T04:46:37.480590"
+  },
+  {
+    "flight_id": "079",
+    "flight_name": "Vistara 691",
+    "origin": {
+      "city_id": "46e4acf196e84406a027cf28ead0c08c",
+      "city_name": "coimbatore"
+    },
+    "destination": {
+      "city_id": "ae6a3954b0ea4bb8bd1301d4822331b8",
+      "city_name": "dehradun"
+    },
+    "price": 10972.36,
+    "seats": 61,
+    "flight_time": "2025-08-09T02:46:37.480600"
+  },
+  {
+    "flight_id": "080",
+    "flight_name": "Air India 526",
+    "origin": {
+      "city_id": "ea5d1ed91d494f9e8f1cc3e9cd2549b5",
+      "city_name": "varanasi"
+    },
+    "destination": {
+      "city_id": "38803755439d4343950d07c9e6f9777d",
+      "city_name": "agartala"
+    },
+    "price": 11804.66,
+    "seats": 177,
+    "flight_time": "2025-08-08T14:46:37.480610"
+  },
+  {
+    "flight_id": "081",
+    "flight_name": "AirAsia India 905",
+    "origin": {
+      "city_id": "e2254beca6174f2da935588fe49236e7",
+      "city_name": "chennai"
+    },
+    "destination": {
+      "city_id": "323debc671d8418695d99f24e948d0a2",
+      "city_name": "guwahati"
+    },
+    "price": 8818.15,
+    "seats": 139,
+    "flight_time": "2025-08-14T08:46:37.480620"
+  },
+  {
+    "flight_id": "082",
+    "flight_name": "Akasa Air 868",
+    "origin": {
+      "city_id": "421bab50fd294129b76eadbb82dd3231",
+      "city_name": "amritsar"
+    },
+    "destination": {
+      "city_id": "bdc25ad23e684fdb865f8629d59b296b",
+      "city_name": "imphal"
+    },
+    "price": 10073.1,
+    "seats": 103,
+    "flight_time": "2025-08-16T03:46:37.480629"
+  },
+  {
+    "flight_id": "083",
+    "flight_name": "SpiceJet 750",
+    "origin": {
+      "city_id": "6d03a279d97642f7b6276b32fbe30044",
+      "city_name": "jaipur"
+    },
+    "destination": {
+      "city_id": "e7614960f87541efaf2cc7626012655c",
+      "city_name": "bagdogra"
+    },
+    "price": 4056.21,
+    "seats": 119,
+    "flight_time": "2025-08-03T21:46:37.480643"
+  },
+  {
+    "flight_id": "084",
+    "flight_name": "TruJet 950",
+    "origin": {
+      "city_id": "ab968fad0d1a4291ade553fcbd08e005",
+      "city_name": "visakhapatnam"
+    },
+    "destination": {
+      "city_id": "46e4acf196e84406a027cf28ead0c08c",
+      "city_name": "coimbatore"
+    },
+    "price": 13720.71,
+    "seats": 191,
+    "flight_time": "2025-08-06T13:46:37.480659"
+  },
+  {
+    "flight_id": "085",
+    "flight_name": "Star Air 397",
+    "origin": {
+      "city_id": "841f8dccf40f4a17bced63096aae410f",
+      "city_name": "indore"
+    },
+    "destination": {
+      "city_id": "bdc25ad23e684fdb865f8629d59b296b",
+      "city_name": "imphal"
+    },
+    "price": 11140.18,
+    "seats": 59,
+    "flight_time": "2025-07-28T00:46:37.480674"
+  },
+  {
+    "flight_id": "086",
+    "flight_name": "Alliance Air 809",
+    "origin": {
+      "city_id": "4f78965e7fd5410ea4b4b25ad72a39bb",
+      "city_name": "chandigarh"
+    },
+    "destination": {
+      "city_id": "a84da412f93542d29b5dc7763a870758",
+      "city_name": "bangalore"
+    },
+    "price": 6541.7,
+    "seats": 108,
+    "flight_time": "2025-08-08T08:46:37.480690"
+  },
+  {
+    "flight_id": "087",
+    "flight_name": "IndiGo 876",
+    "origin": {
+      "city_id": "4df8fb8d730c44b0a000fbd9eb43959a",
+      "city_name": "patna"
+    },
+    "destination": {
+      "city_id": "d18003eb60824922915b925c72d6fd12",
+      "city_name": "ranchi"
+    },
+    "price": 3961.87,
+    "seats": 155,
+    "flight_time": "2025-08-20T00:46:37.480700"
+  },
+  {
+    "flight_id": "088",
+    "flight_name": "Go First 207",
+    "origin": {
+      "city_id": "323debc671d8418695d99f24e948d0a2",
+      "city_name": "guwahati"
+    },
+    "destination": {
+      "city_id": "1899347ec35e4db6aeabe0a22e3a2275",
+      "city_name": "port blair"
+    },
+    "price": 8935.41,
+    "seats": 86,
+    "flight_time": "2025-08-16T07:46:37.480710"
+  },
+  {
+    "flight_id": "089",
+    "flight_name": "Air India 194",
+    "origin": {
+      "city_id": "85d5cebd4fb24372897c9ec99246f07b",
+      "city_name": "vadodara"
+    },
+    "destination": {
+      "city_id": "e2254beca6174f2da935588fe49236e7",
+      "city_name": "chennai"
+    },
+    "price": 12753.61,
+    "seats": 177,
+    "flight_time": "2025-07-30T17:46:37.480719"
+  },
+  {
+    "flight_id": "090",
+    "flight_name": "Akasa Air 378",
+    "origin": {
+      "city_id": "0bce210d9b214ba28e44179b577d7f13",
+      "city_name": "mumbai"
+    },
+    "destination": {
+      "city_id": "cfd5a80499064e4aa4776358e761345f",
+      "city_name": "delhi"
+    },
+    "price": 7835.38,
+    "seats": 119,
+    "flight_time": "2025-08-11T23:46:37.480728"
+  },
+  {
+    "flight_id": "091",
+    "flight_name": "Alliance Air 121",
+    "origin": {
+      "city_id": "0dbffa1ee7b6404ea102304db2a72f7e",
+      "city_name": "hyderabad"
+    },
+    "destination": {
+      "city_id": "4a3666a0ec6c4a3897c762f15276cf08",
+      "city_name": "pune"
+    },
+    "price": 14516.02,
+    "seats": 96,
+    "flight_time": "2025-08-08T08:46:37.480738"
+  },
+  {
+    "flight_id": "092",
+    "flight_name": "Go First 109",
+    "origin": {
+      "city_id": "ab968fad0d1a4291ade553fcbd08e005",
+      "city_name": "visakhapatnam"
+    },
+    "destination": {
+      "city_id": "ea5d1ed91d494f9e8f1cc3e9cd2549b5",
+      "city_name": "varanasi"
+    },
+    "price": 2734.93,
+    "seats": 120,
+    "flight_time": "2025-08-09T20:46:37.480748"
+  },
+  {
+    "flight_id": "093",
+    "flight_name": "Alliance Air 150",
+    "origin": {
+      "city_id": "da328b0e4ced438d85aa1c4c44e282b6",
+      "city_name": "kolkata"
+    },
+    "destination": {
+      "city_id": "421bab50fd294129b76eadbb82dd3231",
+      "city_name": "amritsar"
+    },
+    "price": 7561.46,
+    "seats": 112,
+    "flight_time": "2025-08-18T21:46:37.480758"
+  },
+  {
+    "flight_id": "094",
+    "flight_name": "Star Air 567",
+    "origin": {
+      "city_id": "da328b0e4ced438d85aa1c4c44e282b6",
+      "city_name": "kolkata"
+    },
+    "destination": {
+      "city_id": "34242b9900af4d6392f0eb8d7ada34ed",
+      "city_name": "jodhpur"
+    },
+    "price": 6355.17,
+    "seats": 167,
+    "flight_time": "2025-08-20T02:46:37.480769"
+  },
+  {
+    "flight_id": "095",
+    "flight_name": "IndiGo 948",
+    "origin": {
+      "city_id": "cfd5a80499064e4aa4776358e761345f",
+      "city_name": "delhi"
+    },
+    "destination": {
+      "city_id": "ae6a3954b0ea4bb8bd1301d4822331b8",
+      "city_name": "dehradun"
+    },
+    "price": 8766.92,
+    "seats": 172,
+    "flight_time": "2025-08-13T17:46:37.480779"
+  },
+  {
+    "flight_id": "096",
+    "flight_name": "Alliance Air 671",
+    "origin": {
+      "city_id": "34242b9900af4d6392f0eb8d7ada34ed",
+      "city_name": "jodhpur"
+    },
+    "destination": {
+      "city_id": "6148af97ff654bf686decbc8738bdfde",
+      "city_name": "kochi"
+    },
+    "price": 10195.71,
+    "seats": 69,
+    "flight_time": "2025-08-18T10:46:37.480794"
+  },
+  {
+    "flight_id": "097",
+    "flight_name": "Akasa Air 809",
+    "origin": {
+      "city_id": "7e65b6483f654a31aa86508479185012",
+      "city_name": "leh"
+    },
+    "destination": {
+      "city_id": "841f8dccf40f4a17bced63096aae410f",
+      "city_name": "indore"
+    },
+    "price": 13837.29,
+    "seats": 153,
+    "flight_time": "2025-08-02T02:46:37.480810"
+  },
+  {
+    "flight_id": "098",
+    "flight_name": "IndiGo 256",
+    "origin": {
+      "city_id": "34242b9900af4d6392f0eb8d7ada34ed",
+      "city_name": "jodhpur"
+    },
+    "destination": {
+      "city_id": "a05dc9fb3c5d44e993c694dfbb330e21",
+      "city_name": "lucknow"
+    },
+    "price": 2736.75,
+    "seats": 191,
+    "flight_time": "2025-08-09T17:46:37.480820"
+  },
+  {
+    "flight_id": "099",
+    "flight_name": "Go First 748",
+    "origin": {
+      "city_id": "bdc25ad23e684fdb865f8629d59b296b",
+      "city_name": "imphal"
+    },
+    "destination": {
+      "city_id": "521b2ddf4c2b4055a157448c1ba3ff11",
+      "city_name": "mangalore"
+    },
+    "price": 9583.77,
+    "seats": 127,
+    "flight_time": "2025-08-01T01:46:37.480829"
+  },
+  {
+    "flight_id": "100",
+    "flight_name": "Air India 400",
+    "origin": {
+      "city_id": "1899347ec35e4db6aeabe0a22e3a2275",
+      "city_name": "port blair"
+    },
+    "destination": {
+      "city_id": "f51ea4d00c474857b70af9bbd15c0ab5",
+      "city_name": "bhubaneswar"
+    },
+    "price": 9529.26,
+    "seats": 181,
+    "flight_time": "2025-08-14T09:46:37.480839"
+  }
+]

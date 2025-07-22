@@ -1,0 +1,7 @@
+{
+  "name": "auth",
+  "scripts": {
+    "build": "mvn clean package",
+    "dev": "mvn spring-boot:run"
+  }
+}
