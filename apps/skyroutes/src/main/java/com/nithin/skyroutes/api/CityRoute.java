@@ -20,10 +20,10 @@ public class CityRoute {
     private CityService cityService;
     
     @GetMapping("/data")
-    public ResponseEntity<?> fetchCities(){
+    private ResponseEntity<?> fetchCities(){
         return ResponseEntity.status(200).body(Map.of(
                     "cities", cityService.fetchAllCities()
-            ));
+        ));
     }
     
 }
