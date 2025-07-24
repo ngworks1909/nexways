@@ -1,4 +1,4 @@
-package com.nithin.auth.user;
+package com.nithin.auth.api;
 
 import java.util.Map;
 
@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.nithin.auth.authentication.Auth;
+import com.nithin.auth.authentication.AuthService;
 import com.nithin.auth.interfaces.CreateRequest;
 import com.nithin.auth.interfaces.LoginRequest;
 import com.nithin.auth.interfaces.SignupRequest;
@@ -16,6 +18,8 @@ import com.nithin.auth.interfaces.ValidationResponse;
 import com.nithin.auth.interfaces.VerifyRequest;
 import com.nithin.auth.jwt.PasswordHasher;
 import com.nithin.auth.jwt.TokenGenerator;
+import com.nithin.auth.user.User;
+import com.nithin.auth.user.UserService;
 import com.nithin.auth.validators.OtpValidator;
 import com.nithin.auth.validators.UserValidator;
 

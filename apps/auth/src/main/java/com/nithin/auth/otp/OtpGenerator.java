@@ -1,4 +1,4 @@
-package com.nithin.auth.user;
+package com.nithin.auth.otp;
 
 import org.springframework.stereotype.Service;
 

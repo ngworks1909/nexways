@@ -18,6 +18,12 @@ public class GatewayConfig {
                 .route("auth_route", r -> r.path("/api/auth/v1/**")
                         .filters(f -> f.addRequestHeader("X-GATEWAY-SECRET", GATEWAY_SECRET))
                         .uri("http://localhost:3001"))
+                .route("flight_route", r -> r.path("/api/v1/flights/**")
+                        .filters(f -> f.addRequestHeader("X-GATEWAY-SECRET", GATEWAY_SECRET))
+                        .uri("http://localhost:3002"))
+                .route("city_route", r -> r.path("/api/v1/city/**")
+                        .filters(f -> f.addRequestHeader("X-GATEWAY-SECRET", GATEWAY_SECRET))
+                        .uri("http://localhost:3002"))
                 .build();
 
     }

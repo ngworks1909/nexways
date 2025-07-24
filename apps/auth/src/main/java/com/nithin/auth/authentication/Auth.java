@@ -1,8 +1,9 @@
-package com.nithin.auth.user;
+package com.nithin.auth.authentication;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+import com.nithin.auth.otp.OtpGenerator;
 
 import jakarta.persistence.*;
 

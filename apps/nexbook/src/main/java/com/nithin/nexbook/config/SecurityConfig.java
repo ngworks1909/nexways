@@ -1,5 +1,4 @@
-package com.nithin.skyroutes.config;
-
+package com.nithin.nexbook.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,7 +17,7 @@ public class SecurityConfig {
         http
             .csrf(csrf -> csrf.disable())
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers("/api/v1/city/**", "/api/flights/v1/**").permitAll()  // allow login/register
+                .requestMatchers("/api/v1/bookings/**").permitAll()  // allow login/register
                 .anyRequest().authenticated()                 // protect everything else
             )
             .sessionManagement(sess -> sess
@@ -29,4 +28,3 @@ public class SecurityConfig {
         return http.build();
     }
 }
-

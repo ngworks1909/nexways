@@ -1,4 +1,4 @@
-package com.nithin.auth.user;
+package com.nithin.auth.authentication;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
