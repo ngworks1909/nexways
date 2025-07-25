@@ -4,9 +4,13 @@ import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.nithin.nexbook.bookings.Booking;
 import com.nithin.nexbook.bookings.BookingService;
 import com.nithin.nexbook.config.TokenParser;
 import com.nithin.nexbook.flights.Flight;
@@ -19,9 +23,6 @@ import com.nithin.nexbook.validators.BookingValidator;
 
 import io.jsonwebtoken.Claims;
 import jakarta.servlet.http.HttpServletRequest;
-
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 
 
 @RestController
@@ -85,14 +86,56 @@ public class BookingRoute {
             ));
         }
 
-        //TODO: check if enough seats are there
+        int bookingCount = bookingService.countBookings(body.flightId);
+        System.out.println(bookingCount);
+        if(flight.getSeats() - bookingCount < body.travellers){
+            return ResponseEntity.status(400).body(Map.of(
+                "success", false,
+                "message", "Not enough seats"
+            ));
+        }
 
-        //TODO: create booking
+        Booking booking = new Booking(flight, user, body.travellers);
 
-        //TODO: return response;
+        bookingService.createBooking(booking);
 
-        
-        return null;
+        return ResponseEntity.status(200).body(Map.of(
+            "success", true,
+            "message", "Booking created",
+            "booking", booking
+        ));
+    }
+
+
+    @GetMapping("/data")
+    public ResponseEntity<?> getBookings(HttpServletRequest request){
+        String authHeader = request.getHeader("Authorization");
+        if (authHeader == null || authHeader.isEmpty()) {
+            // return "{\"success\": false, \"message\": \"Authorization header missing\"}";
+            return ResponseEntity.status(400).body(Map.of(
+                "success", false,
+                "message", "Authorization header missing"
+            ));
+        }
+
+        // Extract token (remove Bearer prefix if present)
+        String token = authHeader.startsWith("Bearer ") ? authHeader.substring(7) : authHeader;
+
+        // Parse token to get claims
+        Claims claims = tokenParser.getAllClaims(token);
+        String userId = claims.get("userId", String.class);
+        User user = userService.getUserById(userId);
+        if(user == null){
+            return ResponseEntity.status(400).body(Map.of(
+                "success", false,
+                "message", "Something went wrong"
+            ));
+        }
+        return ResponseEntity.status(200).body(Map.of(
+            "success", true,
+            "message", "Bookings fetched",
+            "bookings", bookingService.fetchBookings(user.getUserId())
+        ));
     }
     
 }

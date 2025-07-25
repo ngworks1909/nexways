@@ -42,10 +42,9 @@ public class Booking {
 
     public Booking() {}
 
-    public Booking(Flight flight, User user, BookingStatus bookingStatus, int travellers) {
+    public Booking(Flight flight, User user, int travellers) {
         this.flight = flight;
         this.user = user;
-        this.bookingStatus = bookingStatus;
         this.createdAt = LocalDateTime.now();
         this.travellers = travellers;
     }

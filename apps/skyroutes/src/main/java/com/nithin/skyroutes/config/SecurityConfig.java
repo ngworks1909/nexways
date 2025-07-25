@@ -18,7 +18,7 @@ public class SecurityConfig {
         http
             .csrf(csrf -> csrf.disable())
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers("/api/v1/city/**", "/api/flights/v1/**").permitAll()  // allow login/register
+                .requestMatchers("/api/v1/city/**", "/api/v1/flights/**").permitAll()  // allow login/register
                 .anyRequest().authenticated()                 // protect everything else
             )
             .sessionManagement(sess -> sess

@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 
 @RestController
-@RequestMapping("/api/flights")
+@RequestMapping("/api/v1/flights")
 public class FlightRoute {
 
     @Autowired

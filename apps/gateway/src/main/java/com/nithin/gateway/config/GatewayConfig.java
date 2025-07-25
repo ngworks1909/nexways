@@ -24,6 +24,9 @@ public class GatewayConfig {
                 .route("city_route", r -> r.path("/api/v1/city/**")
                         .filters(f -> f.addRequestHeader("X-GATEWAY-SECRET", GATEWAY_SECRET))
                         .uri("http://localhost:3002"))
+                .route("booking_route", r -> r.path("/api/v1/bookings/**")
+                        .filters(f -> f.addRequestHeader("X-GATEWAY-SECRET", GATEWAY_SECRET))
+                        .uri("http://localhost:3003"))
                 .build();
 
     }
