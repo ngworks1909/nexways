@@ -3,7 +3,10 @@ package com.nithin.auth.api;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,6 +21,7 @@ import com.nithin.auth.interfaces.ValidationResponse;
 import com.nithin.auth.interfaces.VerifyRequest;
 import com.nithin.auth.jwt.PasswordHasher;
 import com.nithin.auth.jwt.TokenGenerator;
+import com.nithin.auth.mailer.MailService;
 import com.nithin.auth.user.User;
 import com.nithin.auth.user.UserService;
 import com.nithin.auth.validators.OtpValidator;
@@ -35,6 +39,33 @@ public class UserRouter {
 
     @Autowired
     private TokenGenerator tokenGenerator;
+
+    @Autowired
+    private JavaMailSender mailSender;
+
+    @Autowired
+    private MailService mailService;
+
+    @Autowired
+    private OtpValidator otpValidator;
+
+    @Value("${sender.email}")
+    private String senderEmail;
+
+
+
+
+
+    private String subject = "Verify your email for Nexways";
+
+    private void sendMail(String to, String body){
+        SimpleMailMessage mailMessage = new SimpleMailMessage();
+        mailMessage.setFrom(senderEmail);
+        mailMessage.setTo(to);
+        mailMessage.setSubject(subject);
+        mailMessage.setText(body);
+        mailSender.send(mailMessage);
+    }
 
     @PostMapping("/login")
     private ResponseEntity<?> login(@RequestBody LoginRequest req){
@@ -87,8 +118,10 @@ public class UserRouter {
                 ));
         }
 
-        authService.upsertAuth(email);
-
+        String otp = authService.upsertAuth(email);
+        String body = mailService.getBody(otp);
+        sendMail(email, body);
+        
         return ResponseEntity.status(200).body(Map.of(
                     "success", true,
                     "message", "OTP Sent"
@@ -107,7 +140,7 @@ public class UserRouter {
                     "message", "Something went wrong"
                 ));
         }
-        ValidationResponse response = OtpValidator.validateOtp(otp);
+        ValidationResponse response = otpValidator.validateOtp(otp);
         if(!response.success){
             return ResponseEntity.status(400).body(Map.of(
                     "success", false,
@@ -151,8 +184,15 @@ public class UserRouter {
                 ));
         }
 
-        String email = authService.getEmailByAuthId(req.authId);
-        if(email == null){
+        Auth auth = authService.getAuth(req.authId);
+        if(auth == null){
+            return ResponseEntity.status(400).body(Map.of(
+                    "success", false,
+                    "message", "Something went wrong"
+                ));
+        }
+
+        if(auth.getExpiry().isBefore(java.time.LocalDateTime.now())){
             return ResponseEntity.status(400).body(Map.of(
                     "success", false,
                     "message", "Something went wrong"
@@ -163,8 +203,7 @@ public class UserRouter {
 
         
         String hashedPassword = PasswordHasher.hashPassword(req.password);
-        User user = new User(req.username, email, hashedPassword);
-        userService.saveUser(user);
+        userService.saveUser(new User(req.username, auth.getEmail(), hashedPassword));
 
         return ResponseEntity.status(200).body(Map.of(
                     "success", true,

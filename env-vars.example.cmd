@@ -1,0 +1,11 @@
+set DB_URL=jdbc:postgresql://localhost:5432/exampledb
+set DB_USERNAME=example_user
+set DB_PASSWORD=example_password
+set JWT_SECRET=example_jwt_secret
+set JWT_EXPIRY=3600
+set GATEWAY_SECRET=example_gateway_secret
+set MAIL_HOST=smtp.example.com
+set MAIL_PORT=587
+set MAIL_USERNAME=example_mail_user
+set MAIL_PASSWORD=example_mail_password
+set MAIL_SENDER=no-reply@example.com

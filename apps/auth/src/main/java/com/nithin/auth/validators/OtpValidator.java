@@ -1,11 +1,15 @@
 package com.nithin.auth.validators;
 
+import org.springframework.stereotype.Service;
+
 import com.nithin.auth.interfaces.ValidationResponse;
 
+
+@Service
 public class OtpValidator {
 
     //verify if each value is number
-    public static ValidationResponse validateOtp(String otp){
+    public ValidationResponse validateOtp(String otp){
         if (otp == null || otp.trim().length() != 6) {
             return new ValidationResponse(false, "Invalid OTP");
         }

@@ -2,6 +2,6 @@
   "name": "auth",
   "scripts": {
     "build": "mvn clean package",
-    "dev": "mvn spring-boot:run"
+    "dev": "call ../../env-vars.cmd && mvn spring-boot:run"
   }
 }
